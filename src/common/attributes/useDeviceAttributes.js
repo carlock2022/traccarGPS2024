@@ -6,6 +6,18 @@ export default (t) => useMemo(() => ({
     type: 'string',
     subtype: 'color',
   },
+  deviceCreation: {
+    name: t('attributeCreationDate'),
+    type: 'string',
+  },
+  deviceNumber: {
+    name: t('attributeDeviceNumber'),
+    type: 'string',
+  },
+  Fuel: {
+    name: t('attributeFuel'),
+    type: 'string',
+  },
   devicePassword: {
     name: t('attributeDevicePassword'),
     type: 'string',
