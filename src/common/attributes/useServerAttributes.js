@@ -31,6 +31,16 @@ export default (t) => useMemo(() => ({
     type: 'string',
     subtype: 'color',
   },
+  colorGeneral: {
+    name: t('serverColorGeneral'),
+    type: 'string',
+    subtype: 'color',
+  },
+  colorText: {
+    name: t('serverColorText'),
+    type: 'string',
+    subtype: 'color',
+  },
   disableChange: {
     name: t('serverChangeDisable'),
     type: 'boolean',
@@ -58,6 +68,22 @@ export default (t) => useMemo(() => ({
   serviceWorkerUpdateInterval: {
     name: t('settingsServiceWorkerUpdateInterval'),
     type: 'number',
+  },
+  serverwscontacto: {
+    name: t('serverwscontacto'),
+    type: 'string',
+  },
+  serverfbcontacto: {
+    name: t('serverfbcontacto'),
+    type: 'string',
+  },
+  servermedia: {
+    name: t('servermedia'),
+    type: 'string',
+  },
+  servergmcontacto: {
+    name: t('servergmcontacto'),
+    type: 'string',
   },
   'ui.disableLoginLanguage': {
     name: t('attributeUiDisableLoginLanguage'),
