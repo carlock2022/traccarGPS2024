@@ -346,6 +346,8 @@
     "servergmcontacto": "Login Link Google Maps",
     "serverwscontacto": "Login Link Whatsapp",
     "servermedia": "Link Personalization",
+    "serverapple": "Link Apk Apple",
+    "servergoogle": "Link Apk Google",
     "mapTitle": "Map",
     "mapActive": "Active Maps",
     "mapOverlay": "Map Overlay",
