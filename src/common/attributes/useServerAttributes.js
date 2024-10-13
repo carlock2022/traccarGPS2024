@@ -69,16 +69,20 @@ export default (t) => useMemo(() => ({
     name: t('settingsServiceWorkerUpdateInterval'),
     type: 'number',
   },
-  serverwscontacto: {
-    name: t('serverwscontacto'),
-    type: 'string',
-  },
   serverfbcontacto: {
     name: t('serverfbcontacto'),
     type: 'string',
   },
   servermedia: {
     name: t('servermedia'),
+    type: 'string',
+  },
+  serverapple: {
+    name: t('serverapple'),
+    type: 'string',
+  },
+  servergoogle: {
+    name: t('servergoogle'),
     type: 'string',
   },
   servergmcontacto: {
